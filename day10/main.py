@@ -50,8 +50,7 @@ def add_student():
     marks = []
 
     for subject in subjects:
-        mark = get_number(
-            f"Enter marks for {subject} (0-100): ",
+        mark = get_number( f"Enter marks for {subject} (0-100): ",
             0,
             100
         )
@@ -80,7 +79,7 @@ def view_students():
         return
 
     for student in students:
-        total = sum(student["marks"])
+        total = sum(smtudent["marks"])
         average = total / len(student["marks"])
 
         print("\nRoll Number:", student["roll"])
@@ -179,7 +178,7 @@ def update_student():
 
     print("Student not found.")
 
-
+h
 # -----------------------------
 # Delete Student
 # -----------------------------
@@ -212,7 +211,7 @@ def get_grade(average):
     elif average >= 80:
         return "B"
 
-    elif average >= 70:
+     elif average >= 70:
         return "C"
 
     elif average >= 60:
@@ -372,6 +371,7 @@ def main():
             view_students()
 
         elif choice == "3":
+      
             search_student()
 
         elif choice == "4":

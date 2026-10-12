@@ -7,4 +7,4 @@ print("Original text:", text)
 print("Total characters:", len(clean_text))
 print("Total words:", len(words))
 print("Uppercase:", clean_text.upper())
-print("Lowercase:", clean_text.lower())i 
+print("Lowercase:", clean_text.lower())
