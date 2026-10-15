@@ -1,3 +1,4 @@
+# dictionaries
 inventory = {
     "laptop": {
         "price": 50000,

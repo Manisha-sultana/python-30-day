@@ -1,3 +1,4 @@
+#set
 manisha_friends = {"Rahul", "Priya", "Aman", "Neha"}
 rahul_friends = {"Priya", "Aman", "Ravi", "Karan"}
 

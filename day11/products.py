@@ -1,3 +1,4 @@
+#nested data
 products = [
     {"name": "Laptop", "price": 50000, "category": "Electronics"},
     {"name": "Mouse", "price": 500, "category": "Electronics"},
