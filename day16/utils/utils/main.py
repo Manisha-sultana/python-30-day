@@ -5,7 +5,7 @@ except ImportError:
         from utils.utils.math_utils import add, multiply
     except ImportError:
         try:
-            from day12.utils.utils.math_utils import add, multiply
+            from day16.utils.utils.math_utils import add, multiply
         except ImportError:
             from math_utils import add, multiply
 
